@@ -53,7 +53,7 @@ function breakfast()
                 variant="userdebug"
             fi
 
-            lunch lineage_$target-$aosp_target_release-$variant
+            lunch lineage_$target $aosp_target_release $variant
         fi
     fi
     return $?
